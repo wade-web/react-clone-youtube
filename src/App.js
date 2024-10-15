@@ -15,7 +15,7 @@ function App() {
         <div className="app__body">
           <Sidebar />
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/react-clone-youtube" element={<HomePage />} />
         
             <Route path="/video/:videoId" element={<VideoPlayer />} />
           </Routes>
