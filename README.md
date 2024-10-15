@@ -12,7 +12,7 @@ Comment démarrer :
 Clonez ce dépôt.
 bash
 Copier le code
-git clone https://github.com/username/react-clone-youtube.git
+git clone https://github.com/wade-web/react-clone-youtube.git
 Installez les dépendances.
 bash
 Copier le code
