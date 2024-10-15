@@ -1,0 +1,72 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header__left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__logo {
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px;
+  }
+  
+  .header__center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header__input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid lightgray;
+  border-top-left-radius: 33px;
+  border-bottom-left-radius: 33px;
+  }
+  
+  .header__inputButton {
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    width: 60px;
+    height: 37px;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+  }
+  
+  .header__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__icon {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .header__avatar {
+    cursor: pointer;
+  }
+  button.menu-toggle {
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+  

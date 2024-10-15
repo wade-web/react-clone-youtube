@@ -1,0 +1,78 @@
+
+.sidebar {
+    overflow: hidden;
+    /* width: 240px; */
+    display: none;
+    /* min-width: 245px; */
+    padding: 10px;
+    /* padding: 60px 10px; */
+    background-color: #f9f9f9;
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-color: grey transparent;
+    scrollbar-width: thin;
+    /* position: fixed; */
+  }
+ 
+  .sidebar__link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    color: #606060;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .sidebar__link:hover {
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    /* white-space: normal; */
+  }
+  
+  .sidebar__icon {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin: 15px 0;
+  }
+ .sidebar1 h2 {
+    margin: 0;
+    font-size: 1rem;
+   
+}
+  .gras{
+    font-weight: bold;
+  }
+  /* font-size: 1.6rem;
+  line-height: 2.2rem; */
+  .red-icon {
+    color: red;
+  }
+  /* sidebar.css */
+.sidebar, .sidebar1 {
+  width: 240px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+
+.sidebar {
+  display: block;
+}
+/* Cache le sidebar principal si la classe 'hide' est ajoutée */
+.hide {
+  display: none;
+}
+
+/* Montrer l'autre sidebar lorsque l'état change */
+.sidebar1.show {
+  display: block;
+}

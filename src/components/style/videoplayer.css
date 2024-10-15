@@ -1,0 +1,25 @@
+/* VideoPlayer.css */
+.videoPlayer {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .videoPlayer__iframe {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .videoPlayer__info {
+    margin-top: 15px;
+  }
+  
+  .videoPlayer__info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .videoPlayer__info p {
+    font-size: 14px;
+    color: gray;
+  }
+  
